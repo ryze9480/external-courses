@@ -7,6 +7,3 @@ function logElements(arr){
   }
   
   module.exports=logElements
- 
-      
-   
