@@ -5,9 +5,7 @@ function getType(arr){
     else if (typeof(arr)==='string'){
 	return 'string';
     }
-
 return undefined;
-
 }
 
 module.exports=getType
