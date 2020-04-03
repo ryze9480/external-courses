@@ -1,25 +1,25 @@
 const Calculator= {
   result: 0,
   add: function (a=0){
-    if(typeof a==="number"&&Number.isNaN(a)!=="NaN"){
+    if(typeof a==="number"&&Number.isNaN(a)){
     Calculator.result=Calculator.result+a;   
  }
     return Calculator.add
 },
   substract: function(a=0){
-  if(typeof a==="number"&&Number.isNaN(a)!=="NaN"){
+  if(typeof a==="number"&&Number.isNaN(a)){
       Calculator.result=Calculator.result-a;
  }
 return Calculator.substract
 },
   divide: function(a=1){
-  if(typeof a==="number"&&Number.isNaN(a)!=="NaN"){
+  if(typeof a==="number"&&Number.isNaN(a)){
       Calculator.result=Calculator.result/a;
  }
 return Calculator.divide
 },
   multiply: function(a=1){
-  if(typeof a==="number"&&Number.isNaN(a)!=="NaN"){
+  if(typeof a==="number"&&Number.isNaN(a)){
       Calculator.result=Calculator.result*a;    
  }
 return Calculator.multiply
