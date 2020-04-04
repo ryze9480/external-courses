@@ -1,8 +1,8 @@
-function getType(arr){
-  if(typeof(arr)==="number"&&!Number.isNaN(arr)){
+function getType(arg){
+  if(typeof(arg)==="number"&&!Number.isNaN(arg)){
     return "number";
   }
-    else if (typeof(arr)==='string'){
+    else if (typeof(arg)==='string'){
 	return 'string';
     }
 return undefined;

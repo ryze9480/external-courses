@@ -7,7 +7,6 @@ function compareElements(arr){
     if(arr[0]!==arr[i]){
       result=false;
       break
-
     }
     else{
       result=true;
