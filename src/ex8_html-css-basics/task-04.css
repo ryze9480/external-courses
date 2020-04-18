@@ -1,0 +1,53 @@
+#first{
+	background-image: url(picture3.jpg);
+	color: #00FD62;
+	width: 1600px;height:1200px;
+	font-size: 255%;
+	font-style: italic;
+	text-decoration: underline;
+	text-decoration-color: #D4D0C8;
+	text-decoration-style:double;
+	text-shadow: 1px 1px 2px #26FEFF, 0 0 1em #26FEFF;
+
+
+}
+#second{
+	background-image: url(picture4.jpg);
+	color: #FD6200;
+	width: 1600px;height:1050px;
+	font-size: 35pt;
+	font-style:oblique;
+	text-decoration: overline;
+	text-decoration-color: #D60082;
+	text-decoration-style: dotted;
+	text-shadow: 1px 1px 2px #FC6100, 0 0 1em #0000FF;
+
+}
+#third{
+	background-color: green;
+	color: #FABA3C;
+	font-family: "Verdana", Times, serif;
+	font-stretch: ultra-condensed;
+	font-style:inherit;
+	text-decoration:line-through;
+	text-decoration-color: #26FFFF;
+	text-decoration-style: wavy
+
+	
+}
+#fourth{
+	background-color: #FE6400;
+	color:#D4D0C8;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-stretch: ultra-expanded;
+	font-variant: small-caps;
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
+	
+}
+#fifth{
+	background-color: RGB(100,0,254);
+	color: #0098FE;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-variant: inherit;
+	text-shadow: 1px 1px 2px blue, 0 0 1em green;
+}
