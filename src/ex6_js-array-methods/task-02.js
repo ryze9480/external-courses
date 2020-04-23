@@ -5,7 +5,6 @@ function polyfillEvery(array,callback){
     result=true;
       break;
     }
-    
    }
   return result
 }
