@@ -5,7 +5,6 @@ header {
   background: lightblue;
 }
 section {
-  flex-basis:75%;
   background: lightgreen;
 }
 article {
@@ -14,12 +13,11 @@ article {
 }
 aside {
   background: pink;
-  flex-basis:25%;
 }
 header, article, section, .module {
   padding: 1rem;
 }
 #wrapper{
-  display:flex;
-  flex-basis:100%;
+  display:grid;
+  grid-template-columns: 70% 30%;
 }
