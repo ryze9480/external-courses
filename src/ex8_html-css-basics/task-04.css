@@ -8,8 +8,6 @@
 	text-decoration-color: #D4D0C8;
 	text-decoration-style:double;
 	text-shadow: 1px 1px 2px #26FEFF, 0 0 1em #26FEFF;
-
-
 }
 #second{
 	background-image: url(picture4.jpg);
@@ -21,7 +19,6 @@
 	text-decoration-color: #D60082;
 	text-decoration-style: dotted;
 	text-shadow: 1px 1px 2px #FC6100, 0 0 1em #0000FF;
-
 }
 #third{
 	background-color: green;
@@ -32,8 +29,6 @@
 	text-decoration:line-through;
 	text-decoration-color: #26FFFF;
 	text-decoration-style: wavy
-
-	
 }
 #fourth{
 	background-color: #FE6400;
@@ -42,7 +37,6 @@
 	font-stretch: ultra-expanded;
 	font-variant: small-caps;
 	text-shadow: 1px 1px 2px black, 0 0 1em red;
-	
 }
 #fifth{
 	background-color: RGB(100,0,254);
