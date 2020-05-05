@@ -1,0 +1,13 @@
+@import "header.css" screen;
+@import "main.css" screen;
+
+body{
+  display:flex;
+  align-self:center;
+  flex-direction:column;
+  width:980px;
+}
+html{
+	display:flex;
+	justify-content:center;
+}
