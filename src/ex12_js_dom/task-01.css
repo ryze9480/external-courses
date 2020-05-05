@@ -1,0 +1,45 @@
+
+.slider-image img{
+width:100%;
+display:none;
+}
+.slider-image img:first-child{
+	display:block;
+}
+.slider-image {
+  position:relative;
+  width: 300px;
+  margin:0 auto;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 6px solid red;
+}
+
+.button {
+  position:absolute;
+  width:30px;
+  height:30px;
+  border:3px solid  black;
+  background:white;
+  opacity: 0;
+  top: 135px;
+  cursor:pointer;
+}
+
+.button:hover{
+  opacity:1;
+}
+
+.left-button{
+  left: 11px;
+  font-size:150%;
+}  
+
+.right-button{
+  right: 0;
+  font-size:150%;
+}
