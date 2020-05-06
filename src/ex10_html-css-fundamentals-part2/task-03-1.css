@@ -1,0 +1,12 @@
+TD,TH:hover{
+		cursor:pointer;
+}
+TR.even:hover{
+		background-color:#808080;
+}
+TR.odd:hover{
+		background-color:#808080;
+}
+TR.header:hover{
+		background-color:#808080;
+}
