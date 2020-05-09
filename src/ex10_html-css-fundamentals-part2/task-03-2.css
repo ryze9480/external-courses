@@ -1,0 +1,33 @@
+table {
+      background:#B7410E;
+      border-collapse:collapse; 
+      color:black;
+      white-space:nowrap;
+      width:400px;
+}
+td{
+      border: 2px solid white;
+      text-align:center;
+      padding:15px 20px;   
+}
+th{
+    font-weight:normal;
+    padding:3px 2px;
+    border: 2px solid white; 
+}
+.header{
+      background:#654321;
+      text-transform:uppercase;
+      font-size:10px;
+}
+   
+.even {
+      background:#654321;
+      font-size:15px; 
+}
+.odd {
+      font-size:15px;
+}
+.name {
+     text-transform:capitalize;  
+}

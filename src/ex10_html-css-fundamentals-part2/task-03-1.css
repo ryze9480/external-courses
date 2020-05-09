@@ -1,0 +1,12 @@
+td,th:hover{
+		cursor:pointer;
+}
+.even:hover{
+		background-color:#808080;
+}
+.odd:hover{
+		background-color:#808080;
+}
+.header:hover{
+		background-color:#808080;
+}
