@@ -1,0 +1,161 @@
+@keyframes transformation {
+  0% {
+    border-radius: 50%;
+    background-position: 5% 0%;
+    transform: skew(0deg) rotate(0deg);
+    width: 200px;
+    height: 200px;
+  }
+  5% {
+    border-radius: 45%;
+    background-position: 10% 0%;
+    transform: skew(5deg) rotate(50deg);
+    width: 205px;
+    height: 205px;
+  }
+  10% {
+    border-radius: 40%;
+    background-position: 15% 0%;
+    transform: skew(10deg) rotate(100deg);
+    width: 210px;
+    height: 210px;
+  }
+  15% {
+    border-radius: 35%;
+    background-position: 20% 0%;
+    transform: skew(15deg) rotate(150deg);
+    width: 215px;
+    height: 215px;
+  }
+  20% {
+    border-radius: 30%;
+    background-position: 25% 0%;
+    transform: skew(20deg) rotate(200deg);
+    width: 220px;
+    height: 220px;
+  }
+  25% {
+    border-radius: 25%;
+    background-position: 30% 0%;
+    transform: skew(25deg) rotate(250deg);
+    width: 225px;
+    height: 225px;
+  }
+  30% {
+    border-radius: 20%;
+    background-position: 35% 0%;
+    transform: skew(5deg) rotate(300deg);
+    width: 230px;
+    height: 230px;
+  }
+  35% {
+    border-radius: 15%;
+    background-position: 40% 0%;
+    transform: skew(5deg) rotate(360deg);
+    width: 235px;
+    height: 235px;
+  }
+  40% {
+    border-radius: 10%;
+    background-position: 45% 0%;
+    transform: skew(5deg) rotate(300deg);
+    width: 240px;
+    height: 240px;
+  }
+  45% {
+    border-radius: 5%;
+    background-position: 50% 0%;
+    transform: skew(5deg) rotate(250deg);
+    width: 245px;
+    height: 245px;
+  }
+  50% {
+    border-radius: 0;
+    background-position: 55% 0%;
+    transform: skew(5deg) rotate(200deg);
+    width: 250px;
+    height: 250px;
+  }
+  55% {
+    border-radius: 5%;
+    background-position: 60% 0%;
+    transform: skew(5deg) rotate(150deg);
+    width: 255px;
+    height: 255px;
+  }
+  60% {
+    border-radius: 10%;
+    background-position: 65% 0%;
+    transform: skew(5deg) rotate(100deg);
+    width: 260px;
+    height: 260px;
+  }
+  65% {
+    border-radius: 15%;
+    background-position: 70% 0%;
+    transform: skew(5deg) rotate(50deg);
+    width: 255px;
+    height: 255px;
+  }
+  70% {
+    border-radius: 20%;
+    background-position: 75% 0%;
+    transform: skew(5deg) rotate(100deg);
+    width: 250px;
+    height: 250px;
+  }
+ 75% {
+    border-radius: 25%;
+    background-position: 80% 0%;
+    transform: skew(5deg) rotate(150deg);
+    width: 245px;
+    height: 245px;
+  }
+  80% {
+    border-radius: 30%;
+    background-position: 85% 0%;
+    transform: skew(5deg) rotate(200deg);
+    width: 240px;
+    height: 240px;
+  }
+ 85% {
+    border-radius: 35%;
+    background-position: 90% 0%;
+    transform: skew(5deg) rotate(250deg);
+    width: 235px;
+    height: 235px;
+  }
+  90% {
+    border-radius: 40%;
+    background-position: 95% 0%;
+    transform: skew(5deg) rotate(300deg);
+    width: 230px;
+    height: 230px;
+  }
+  95% {
+    border-radius: 45%;
+    background-position: 99% 0%;
+    transform: skew(5deg) rotate(360deg);
+    width: 215px;
+    height: 215px;
+  }
+  100% {
+    border-radius: 50%;
+    background-position: 5% 0%;
+    transform: skew(0deg) rotate(360deg);
+    width: 200px;
+    height: 200px;
+  }
+} 
+.animation-item {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to right, #FDEA42 5%,#39E41B 10%,#FD4126 15%,#EA1580 20%,#52FA0A 25%, #8000FF 30%,#07FCCB 35%, #00FFFF 40%,#FF8000,#099AFB 45%,#63C4FE 50%,#FF0000 60%,#E350FE 65%,#97FF97 70%,#7EADCF 75%, #d3521b 80%,#A6A600 85%,#FF80FF 90%,#FF8000 95%);
+  background-size: 300% 300%;
+  background-position: 25% 0%;
+  border-radius: 50%;
+  animation-name: transformation;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; 
+  animation-duration: 15s;
+}
