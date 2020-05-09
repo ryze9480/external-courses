@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="task-02.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+	<form>
+	  <fieldset>
+		<legend>Personal data</legend>
+		<p><label for="Surname">Surname </label><input type="text" id="Surname"></p>
+		<p><label for="name">First Name </label><input type="text" id="name"></p>
+		<p><label for="name">Middle name </label><input type="text" class="name"></p>
+		<p><label for="name">You are</label>
+		<input type="radio" name="sex" value="male" checked> male
+		<input type="radio" name="sex" value="female"> female
+		<p class="age"><label for="name">Age </label><input type="number" min="18" max="101"></p>
+		<p><label for="name">Country of Residence </label>
+		<select name="country">
+		  <option selected label=" "></option>
+		  <option value="Ryazan" label="Ryazan"></option>
+		  <option value="Moscow" label="Moscow"></option>
+		</select>
+		<p><label for="name">City</label>
+		<input type="checkbox" name="Ryazan" value="Ryazan" checked> Ryazan
+		<input type="checkbox" name="Moscow" value="Moscow"> Moscow 
+		<p><label for="name">Photography </label>
+		<input type="file" name="file"><hr>
+		<p><textarea  placeholder="Tell us about yourself..."></textarea></p>
+		<p><label for="name">Title</label>
+		<select name="Qalities" size="8">
+		  <optgroup label="Technologies">
+		  <option value="Saturday">Web Master</option>
+		  <option value="Sunday">Database Administrator</option>
+		  <option value="Sunday">Computer-aided design</option> 
+		</optgroup>
+		<optgroup label="Finance">
+		  <option value="Saturday">Economic Planning</option>
+		  <option value="Sunday">Management accounting</option>
+		  <option value="Sunday">Budgeting and planning</option> 
+		</optgroup>
+		</select>
+		<p><label for="name">Salary</label>
+		<input type="range"> 
+	  </fieldset>
+	  <fieldset>
+		<legend>Contact Information</legend>
+		<p><label for="name">Site </label><input type="text" id="Site"></p>
+		<p><label for="name">Email </label><input type="email" id="email"></p>
+		<p><label for="name">Phone </label><input type="text" id="Phone"></p>
+	  </fieldset>
+	  <label>
+		Password
+		<input type="password" name="password">
+	  </label>
+	  <p><input type="submit" value="Отправить"><input type="submit" value="Сбросить"></p>
+	</form>
+</body>
+</html>
